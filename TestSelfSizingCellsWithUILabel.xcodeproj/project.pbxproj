@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148068C01B724517007A704A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068A21B724517007A704A /* ViewController.m */; };
+		148068C11B724517007A704A /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068A31B724517007A704A /* TableViewDataSource.m */; };
+		148068C21B724517007A704A /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068A41B724517007A704A /* TableViewDelegate.m */; };
+		148068C31B724517007A704A /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148068A91B724517007A704A /* TableViewCell1.xib */; };
+		148068C41B724517007A704A /* TableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068AA1B724517007A704A /* TableViewCell1.m */; };
+		148068C51B724517007A704A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068AC1B724517007A704A /* AppDelegate.m */; };
+		148068C61B724517007A704A /* 0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068AD1B724517007A704A /* 0.txt */; };
+		148068CA1B724517007A704A /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B11B724517007A704A /* 9.txt */; };
+		148068CB1B724517007A704A /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B21B724517007A704A /* 8.txt */; };
+		148068CC1B724517007A704A /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B31B724517007A704A /* 7.txt */; };
+		148068CD1B724517007A704A /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B41B724517007A704A /* 6.txt */; };
+		148068CE1B724517007A704A /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B51B724517007A704A /* 5.txt */; };
+		148068CF1B724517007A704A /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B61B724517007A704A /* 4.txt */; };
+		148068D01B724517007A704A /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B71B724517007A704A /* 3.txt */; };
+		148068D11B724517007A704A /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B81B724517007A704A /* 2.txt */; };
+		148068D21B724517007A704A /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 148068B91B724517007A704A /* 1.txt */; };
+		148068D31B724517007A704A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148068BC1B724517007A704A /* Images.xcassets */; };
+		148068D41B724517007A704A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148068BD1B724517007A704A /* main.m */; };
+		148068D71B724677007A704A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 148068D51B724677007A704A /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		148068471B7142F5007A704A /* TestSelfSizingCellsWithUILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSelfSizingCellsWithUILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1480689E1B724517007A704A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestSelfSizingCellsWithUILabel/Info.plist; sourceTree = SOURCE_ROOT; };
+		148068A21B724517007A704A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TestSelfSizingCellsWithUILabel/ViewController.m; sourceTree = SOURCE_ROOT; };
+		148068A31B724517007A704A /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewDataSource.m; path = TestSelfSizingCellsWithUILabel/TableViewDataSource.m; sourceTree = SOURCE_ROOT; };
+		148068A41B724517007A704A /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewDelegate.m; path = TestSelfSizingCellsWithUILabel/TableViewDelegate.m; sourceTree = SOURCE_ROOT; };
+		148068A51B724517007A704A /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewDataSource.h; path = TestSelfSizingCellsWithUILabel/TableViewDataSource.h; sourceTree = SOURCE_ROOT; };
+		148068A61B724517007A704A /* TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewDelegate.h; path = TestSelfSizingCellsWithUILabel/TableViewDelegate.h; sourceTree = SOURCE_ROOT; };
+		148068A71B724517007A704A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TestSelfSizingCellsWithUILabel/ViewController.h; sourceTree = SOURCE_ROOT; };
+		148068A81B724517007A704A /* Switchable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Switchable.h; path = TestSelfSizingCellsWithUILabel/Switchable.h; sourceTree = SOURCE_ROOT; };
+		148068A91B724517007A704A /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell1.xib; path = TestSelfSizingCellsWithUILabel/TableViewCell1.xib; sourceTree = SOURCE_ROOT; };
+		148068AA1B724517007A704A /* TableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell1.m; path = TestSelfSizingCellsWithUILabel/TableViewCell1.m; sourceTree = SOURCE_ROOT; };
+		148068AB1B724517007A704A /* TableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell1.h; path = TestSelfSizingCellsWithUILabel/TableViewCell1.h; sourceTree = SOURCE_ROOT; };
+		148068AC1B724517007A704A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestSelfSizingCellsWithUILabel/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		148068AD1B724517007A704A /* 0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 0.txt; path = TestSelfSizingCellsWithUILabel/0.txt; sourceTree = SOURCE_ROOT; };
+		148068B11B724517007A704A /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 9.txt; path = TestSelfSizingCellsWithUILabel/9.txt; sourceTree = SOURCE_ROOT; };
+		148068B21B724517007A704A /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 8.txt; path = TestSelfSizingCellsWithUILabel/8.txt; sourceTree = SOURCE_ROOT; };
+		148068B31B724517007A704A /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 7.txt; path = TestSelfSizingCellsWithUILabel/7.txt; sourceTree = SOURCE_ROOT; };
+		148068B41B724517007A704A /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 6.txt; path = TestSelfSizingCellsWithUILabel/6.txt; sourceTree = SOURCE_ROOT; };
+		148068B51B724517007A704A /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 5.txt; path = TestSelfSizingCellsWithUILabel/5.txt; sourceTree = SOURCE_ROOT; };
+		148068B61B724517007A704A /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 4.txt; path = TestSelfSizingCellsWithUILabel/4.txt; sourceTree = SOURCE_ROOT; };
+		148068B71B724517007A704A /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 3.txt; path = TestSelfSizingCellsWithUILabel/3.txt; sourceTree = SOURCE_ROOT; };
+		148068B81B724517007A704A /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 2.txt; path = TestSelfSizingCellsWithUILabel/2.txt; sourceTree = SOURCE_ROOT; };
+		148068B91B724517007A704A /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 1.txt; path = TestSelfSizingCellsWithUILabel/1.txt; sourceTree = SOURCE_ROOT; };
+		148068BA1B724517007A704A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = TestSelfSizingCellsWithUILabel/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		148068BB1B724517007A704A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestSelfSizingCellsWithUILabel/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		148068BC1B724517007A704A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TestSelfSizingCellsWithUILabel/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		148068BD1B724517007A704A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestSelfSizingCellsWithUILabel/main.m; sourceTree = SOURCE_ROOT; };
+		148068D61B724677007A704A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = TestSelfSizingCellsWithUILabel/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148068441B7142F5007A704A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1480683E1B7142F5007A704A = {
+			isa = PBXGroup;
+			children = (
+				148068491B7142F5007A704A /* TestSelfSizingCellsWithUILabel */,
+				148068481B7142F5007A704A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148068481B7142F5007A704A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148068471B7142F5007A704A /* TestSelfSizingCellsWithUILabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148068491B7142F5007A704A /* TestSelfSizingCellsWithUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				148068BB1B724517007A704A /* AppDelegate.h */,
+				148068AC1B724517007A704A /* AppDelegate.m */,
+				148068831B71F687007A704A /* Classes */,
+				148068BC1B724517007A704A /* Images.xcassets */,
+				148068D51B724677007A704A /* LaunchScreen.xib */,
+				1480684A1B7142F5007A704A /* Supporting Files */,
+			);
+			name = TestSelfSizingCellsWithUILabel;
+			path = TestUILabel;
+			sourceTree = "<group>";
+		};
+		1480684A1B7142F5007A704A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1480689E1B724517007A704A /* Info.plist */,
+				148068BA1B724517007A704A /* PrefixHeader.pch */,
+				148068BD1B724517007A704A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		148068831B71F687007A704A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				148068A21B724517007A704A /* ViewController.m */,
+				148068A71B724517007A704A /* ViewController.h */,
+				148068A81B724517007A704A /* Switchable.h */,
+				148068841B71F6A4007A704A /* Table View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		148068841B71F6A4007A704A /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				148068861B71F822007A704A /* Data Source */,
+				1480689A1B71F9CF007A704A /* Delegate */,
+				148068851B71F6D3007A704A /* Cells */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
+		148068851B71F6D3007A704A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				148068AB1B724517007A704A /* TableViewCell1.h */,
+				148068AA1B724517007A704A /* TableViewCell1.m */,
+				148068A91B724517007A704A /* TableViewCell1.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		148068861B71F822007A704A /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				148068A51B724517007A704A /* TableViewDataSource.h */,
+				148068A31B724517007A704A /* TableViewDataSource.m */,
+				148068871B71F83F007A704A /* Resources */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		148068871B71F83F007A704A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				148068AD1B724517007A704A /* 0.txt */,
+				148068B91B724517007A704A /* 1.txt */,
+				148068B81B724517007A704A /* 2.txt */,
+				148068B71B724517007A704A /* 3.txt */,
+				148068B61B724517007A704A /* 4.txt */,
+				148068B51B724517007A704A /* 5.txt */,
+				148068B41B724517007A704A /* 6.txt */,
+				148068B31B724517007A704A /* 7.txt */,
+				148068B21B724517007A704A /* 8.txt */,
+				148068B11B724517007A704A /* 9.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1480689A1B71F9CF007A704A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				148068A61B724517007A704A /* TableViewDelegate.h */,
+				148068A41B724517007A704A /* TableViewDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148068461B7142F5007A704A /* TestSelfSizingCellsWithUILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480686A1B7142F5007A704A /* Build configuration list for PBXNativeTarget "TestSelfSizingCellsWithUILabel" */;
+			buildPhases = (
+				148068431B7142F5007A704A /* Sources */,
+				148068441B7142F5007A704A /* Frameworks */,
+				148068451B7142F5007A704A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSelfSizingCellsWithUILabel;
+			productName = TestUILabel;
+			productReference = 148068471B7142F5007A704A /* TestSelfSizingCellsWithUILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1480683F1B7142F5007A704A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sean Antony";
+				TargetAttributes = {
+					148068461B7142F5007A704A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 148068421B7142F5007A704A /* Build configuration list for PBXProject "TestSelfSizingCellsWithUILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1480683E1B7142F5007A704A;
+			productRefGroup = 148068481B7142F5007A704A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148068461B7142F5007A704A /* TestSelfSizingCellsWithUILabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148068451B7142F5007A704A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148068C61B724517007A704A /* 0.txt in Resources */,
+				148068D21B724517007A704A /* 1.txt in Resources */,
+				148068D11B724517007A704A /* 2.txt in Resources */,
+				148068D01B724517007A704A /* 3.txt in Resources */,
+				148068CF1B724517007A704A /* 4.txt in Resources */,
+				148068CE1B724517007A704A /* 5.txt in Resources */,
+				148068CD1B724517007A704A /* 6.txt in Resources */,
+				148068CC1B724517007A704A /* 7.txt in Resources */,
+				148068CB1B724517007A704A /* 8.txt in Resources */,
+				148068CA1B724517007A704A /* 9.txt in Resources */,
+				148068C31B724517007A704A /* TableViewCell1.xib in Resources */,
+				148068D71B724677007A704A /* LaunchScreen.xib in Resources */,
+				148068D31B724517007A704A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148068431B7142F5007A704A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148068C51B724517007A704A /* AppDelegate.m in Sources */,
+				148068C01B724517007A704A /* ViewController.m in Sources */,
+				148068C21B724517007A704A /* TableViewDelegate.m in Sources */,
+				148068C41B724517007A704A /* TableViewCell1.m in Sources */,
+				148068C11B724517007A704A /* TableViewDataSource.m in Sources */,
+				148068D41B724517007A704A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		148068D51B724677007A704A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148068D61B724677007A704A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148068681B7142F5007A704A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestSelfSizingCellsWithUILabel/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		148068691B7142F5007A704A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestSelfSizingCellsWithUILabel/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1480686B1B7142F5007A704A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSelfSizingCellsWithUILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TestSelfSizingCellsWithUILabel;
+			};
+			name = Debug;
+		};
+		1480686C1B7142F5007A704A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSelfSizingCellsWithUILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = TestSelfSizingCellsWithUILabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148068421B7142F5007A704A /* Build configuration list for PBXProject "TestSelfSizingCellsWithUILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148068681B7142F5007A704A /* Debug */,
+				148068691B7142F5007A704A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1480686A1B7142F5007A704A /* Build configuration list for PBXNativeTarget "TestSelfSizingCellsWithUILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480686B1B7142F5007A704A /* Debug */,
+				1480686C1B7142F5007A704A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1480683F1B7142F5007A704A /* Project object */;
+}
